@@ -2,7 +2,7 @@
     font-family: "Source Code Pro", monospace;
     margin: 0;
   }
-  
+
 .main-header {
     height: 16.5vh;
     width: 100vw;
@@ -13,3 +13,14 @@
 img.logo-main {
     height: 16.75vh;
   }
+
+.footer {
+    display: flex;
+    background-color: #000;
+    height: 10vh;
+    color: #fff;
+  }
+.socials {
+    margin: 0 auto;
+    padding-top: 2.5vh;
+}
