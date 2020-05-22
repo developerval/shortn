@@ -1,0 +1,15 @@
+* {
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+  }
+  
+.main-header {
+    height: 16.5vh;
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+  }
+
+img.logo-main {
+    height: 16.75vh;
+  }
