@@ -2,24 +2,48 @@
     font-family: "Source Code Pro", monospace;
     margin: 0;
   }
+body, html {
+  height: 100vh;
+}
 
 .main-header {
-    height: 16.5vh;
+    height: 16vh;
     width: 100vw;
     background-color: #000;
     position: relative;
   }
 
 img.logo-main {
-    height: 16.75vh;
+    height: 16.2vh;
   }
+
+.main-container {
+  position: relative;
+  height: 73vh;
+}
+
+.input-form {
+  background-color: #000;
+  height: 13rem;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
 .footer {
     display: flex;
     background-color: #000;
-    height: 10vh;
+    height: 11vh;
     color: #fff;
   }
+
+
 .socials {
     margin: 0 auto;
     padding-top: 2.5vh;
