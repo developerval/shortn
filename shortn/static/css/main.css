@@ -48,3 +48,43 @@ img.logo-main {
     margin: 0 auto;
     padding-top: 2.5vh;
 }
+
+input#original-url {
+  width: 75%;
+  height: 20px;
+  text-align: center;
+  caret-color: transparent;
+}
+input#new-url {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+button {
+  width: 30%;
+  background-color: #000;
+  text-decoration: none;
+  border-block-color: #fff;
+  color: #fff;
+  height: 10%;
+  margin-top: 1em;
+  outline: 0;
+}
+button:hover {
+  width: 30%;
+  background-color: #fff;
+  text-decoration: none;
+  border: none;
+  color: #000;
+}
+input[type="text"] {
+  text-align: center;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  outline: 0;
+}

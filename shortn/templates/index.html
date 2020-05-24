@@ -16,7 +16,14 @@
         <div class="input-container">
             <form action="{{ url_for('success') }}" method="POST" class="input-form">
                 <input type="text" name="original-url" id="input" title="Enter your URL here!"
-                    placeholder="Enter your URL to be Shortned!">
+                    placeholder="Enter your URL">
+                <button type="submit" id="url-input" onclick="shortn();">
+                    shortn!
+                </button>
+                <input type="text" id="new-url" placeholder="Your short URL will be here!" />
+                <button type="button" id="copy-url">
+                    grab it
+                </button>
             </form>
         </div>
     </div>
