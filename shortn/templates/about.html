@@ -17,15 +17,13 @@
 
 <body>
     <header class="main-header">
-        <img class="logo-main" src="../static/img/shortn-logo-main.svg" alt="shortn logo" />
-        <a class="about-link" href="about.html">about</a>
+        <a class="home-link" href="{{ url_for('index') }}"><img class=" logo-main"
+                src="../static/img/shortn-logo-main.svg" alt="shortn logo" /></a>
+        <a class="about-link" href="{{ url_for('about') }}">about</a>
     </header>
     <div class="main-container">
         <div class="about">
-            <img class="headshot" src="../static/img/developerval.jpg" alt="developerval">
-            <div class="about-container">
-
-            </div>
+            <h2>The Project</h2>
         </div>
     </div>
     <footer class="footer">

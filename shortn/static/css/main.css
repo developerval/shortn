@@ -8,17 +8,27 @@ body, html {
 
 @font-face {
   font-family: gobold-reg; 
-  src: url(/static/fonts/Gobold\ Regular.otf);
+  src: url(/static/fonts/GoboldRegular.otf);
 }
 
 @font-face {
   font-family: gobold-light;
-  src: url(/static/fonts/Gobold\ Light.otf);
+  src: url(/static/fonts/GoboldLight.otf);
 }
 
 @font-face {
   font-family: gobold-bold;
-  src: url(/static/fonts/Gobold\ Bold.otf);
+  src: url(/static/fonts/GoboldBold.otf);
+}
+
+@font-face {
+  font-family: caviar-reg;
+  src: url(/static/fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: caviar-bold;
+  src: url(/static/fonts/CaviarDreams_bold.ttf);
 }
 
 .main-header {
@@ -41,13 +51,15 @@ img.headshot {
 .about {
   position: absolute;
   margin: auto;
-  top: 5vh; left: 0; bottom: 0; right: 0;
-  width: 60vw;
+  height: 70%;
+  width: 70%;
+  top: 0; left: 0; bottom: 0; right: 0;
   display: flex;
   justify-content: center;
+  background-color: #000;
 }
 
-.about-container {
+/* .about-container {
   background-color: #000;
   height: 20rem;
   position: absolute;
@@ -55,7 +67,7 @@ img.headshot {
   top: 0; left: 0; bottom: 0; right: 0;
   width: 60vw;
   z-index: -1;
-}
+} */
 
 .main-container {
   position: relative;
@@ -130,7 +142,7 @@ input[type="text"] {
   font-size: 16px;
   font-weight: 500;
   outline: 0;
-  font-family: gobold-light;
+  font-family: gobold-reg;
 }
 
 a.about-link {
@@ -153,7 +165,7 @@ a:visited {
   text-decoration: none;
 }
 
-a.about:hover {
+a.about-link:hover {
   text-decoration: none;
   cursor: default;
   top: -1vh;
@@ -161,6 +173,16 @@ a.about:hover {
 
 a:active {
   text-decoration: none;
+}
+
+a.home-link:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+h2 {
+  color: white;
+  font-family: gobold-light;
 }
 
 @media only screen and (max-width: 600px) {
