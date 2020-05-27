@@ -21,16 +21,6 @@ body, html {
   src: url(/static/fonts/GoboldBold.otf);
 }
 
-@font-face {
-  font-family: caviar-reg;
-  src: url(/static/fonts/CaviarDreams.ttf);
-}
-
-@font-face {
-  font-family: caviar-bold;
-  src: url(/static/fonts/CaviarDreams_bold.ttf);
-}
-
 .main-header {
     height: 16vh;
     width: 100vw;
