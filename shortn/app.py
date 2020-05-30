@@ -1,4 +1,4 @@
-from flask import Flask, make_response, jsonify, render_template, request
+from flask import Flask, make_response, jsonify, render_template, request, redirect
 from linkgenerator import generate_link
 
 app = Flask(__name__)
@@ -20,6 +20,12 @@ def success():
 
     res = make_response(jsonify(newone), 200)
     return res
+
+@app.route('/<url>')
+def forward(url):
+    if url == 'nWg73':
+        return redirect('http://www.linkedin.com')
+
 
 if __name__ == '__main__':
     app.debug = True
