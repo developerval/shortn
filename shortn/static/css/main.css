@@ -83,7 +83,7 @@ p.about-body {
   height: 73vh;
 }
 
-.input-form {
+.input-container {
   background-color: #000;
   height: 15rem;
   position: absolute;
@@ -198,7 +198,7 @@ h2 {
   html {
     min-height: -webkit-fill-available;
   }
-  .input-form {
+  .input-container {
     width: 100%;
     height: 100%;
   }
