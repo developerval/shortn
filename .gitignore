@@ -1,3 +1,4 @@
 env
 frontend/
 .vscode/
+__pycache__

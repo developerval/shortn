@@ -23,8 +23,11 @@ function shorten() {
 }
 
 function copylink() {
-    let copyText = document.getElementById('new-url');
+    var copyText = document.querySelector("#new-url");
     copyText.select();
     copyText.setSelectionRange(0, 99999);
-    document.execCommand('copy');
+    document.execCommand("copy");
 }
+
+document.querySelector("#copy-url").addEventListener("click", copylink);
+document.querySelector("#url-input").addEventListener("click", shorten);
