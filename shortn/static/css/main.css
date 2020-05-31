@@ -12,18 +12,13 @@ body, html {
 }
 
 @font-face {
-  font-family: gobold-light;
-  src: url(/static/fonts/GoboldLight.otf);
+  font-family: abel-reg;
+  src: url(/static/fonts/Abel-Regular.ttf);
 }
 
 @font-face {
-  font-family: gobold-bold;
-  src: url(/static/fonts/GoboldBold.otf);
-}
-
-@font-face {
-  font-family: jack-input;
-  src: url(/static/fonts/jackinput.ttf);
+  font-family: ubuntu-med;
+  src: url(/static/fonts/Ubuntu-Medium.ttf);
 }
 
 .main-header {
@@ -60,7 +55,7 @@ img.headshot {
 }
 
 p.about-body {
-  font-family: jack-input;
+  font-family: ubuntu-med;
   color: white;
   padding: 0.35rem;
   line-height: 1.2rem;
@@ -108,7 +103,7 @@ p.about-body {
 .socials {
     margin: 0 auto;
     padding-top: 2.5vh;
-    font-family: gobold-light;
+    font-family: abel-reg;
 }
 
 input#original-url {
@@ -131,7 +126,7 @@ button {
   height: 10%;
   margin-top: 1em;
   outline: 0;
-  font-family: gobold-light;
+  font-family: abel-reg;
   letter-spacing: 0.2em;
   }
 
@@ -151,7 +146,7 @@ input[type="text"] {
   font-size: 16px;
   font-weight: 500;
   outline: 0;
-  font-family: gobold-reg;
+  font-family: ubuntu-med;
 }
 
 a.about-link {
@@ -191,7 +186,7 @@ a.home-link:hover {
 
 h2 {
   color: white;
-  font-family: gobold-light;
+  font-family: abel-reg;
 }
 
 @media only screen and (max-width: 600px) {

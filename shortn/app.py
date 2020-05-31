@@ -23,7 +23,7 @@ def success():
 
 @app.route('/<url>')
 def forward(url):
-    if url == 'nWg73':
+    if url == 'OqSk7':
         return redirect('http://www.linkedin.com')
 
 
