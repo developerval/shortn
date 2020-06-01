@@ -1,46 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/main.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
-    <link rel="manifest" href="/static/img/site.webmanifest">
-    <link rel="mask-icon" href="/static/img/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title>Shortn - Free URL Shortener</title>
-</head>
-
-<body>
-    <header class="main-header">
-        <a class="home-link" href="{{ url_for('index') }}"><img class=" logo-main"
-                src="../static/img/shortn-logo-main.svg" alt="shortn logo" /></a>
-        <a class="about-link" href="{{ url_for('about') }}">about</a>
-    </header>
-    <div class="main-container">
-        <div class="about">
-            <h2>The Developer</h2>
-            <p class="about-body"> Hi! I'm Valentine, an aspiring software developer in London.</p>
-            <p class="about-body">I've spent the last 4 years studying Software Development with Open University and
-                whilst I have 2 years until I'm fully graduated, I've taken up the challenge of putting my abilities
-                into practice by building projects with technologies that I'm interested in. </p>
-            <p class="about-body">You can find all of my social links in the footer below, consider following me on
-                this journey!</p>
-            <h2>The Project</h2>
-            <p class="about-body">Shortn is built using Python 3.x, Flask, Postgres, SQLAlchemy, HTML, CSS and
-                JavaScript.</p>
-            <p class="about-body">This is my first publicly deployed and usable project, I wanted to produce a
-                project
-                that I had an interest in and that would allow me to utilise a wide range of skills.</p>
-        </div>
+{% extends "layout.html" %}
+{% block content %}
+<div class="main-container">
+    <div class="about">
+        <h2>The Developer</h2>
+        <p class="about-body"> Hi! I'm Valentine, an aspiring software developer in London.</p>
+        <p class="about-body">I've spent the last 4 years studying Software Development with Open University and
+            whilst I have 2 years until I'm fully graduated, I've taken up the challenge of putting my abilities
+            into practice by building projects with technologies that I'm interested in. </p>
+        <p class="about-body">You can find all of my social links in the footer below, consider following me on
+            this journey!</p>
+        <h2>The Project</h2>
+        <p class="about-body">Shortn is built using Python 3.x, Flask, Postgres, SQLAlchemy, HTML, CSS and
+            JavaScript.</p>
+        <p class="about-body">This is my first publicly deployed and usable project, I wanted to produce a
+            project
+            that I had an interest in and that would allow me to utilise a wide range of skills.</p>
     </div>
-    <footer class="footer">
-        <div class="socials">footer stuff</div>
-    </footer>
-</body>
-
-</html>
+</div>
+{% endblock %}
