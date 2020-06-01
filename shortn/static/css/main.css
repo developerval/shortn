@@ -63,16 +63,6 @@ p.about-body {
   padding-bottom: 0.4rem;
 }
 
-/* .about-container {
-  background-color: #000;
-  height: 20rem;
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 60vw;
-  z-index: -1;
-} */
-
 .main-container {
   position: relative;
   height: 73vh;
