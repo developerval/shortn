@@ -79,17 +79,22 @@ p.about-body {
 
 .footer {
     display: flex;
+    flex-direction: row;
     background-color: #000;
     height: 11vh;
     color: #fff;
+    justify-content: center;
+    align-items: center;
   }
 
 
-.socials {
-    margin: 0 auto;
-    padding-top: 2.5vh;
-    font-family: abel-reg;
-}
+/* .socials {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 2.5vh;
+  font-family: abel-reg;
+} */
 
 input#original-url {
   width: 75%;
@@ -171,6 +176,14 @@ h2 {
   font-family: abel-reg;
 }
 
+i.far,
+i.fab {
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 2em;
+}
+
 @media only screen and (max-width: 600px) {
   html, body {
     max-height: 100vh;
@@ -201,7 +214,7 @@ button {
 
 a.about-link {
   font-size: 0.75rem;
-  top: 80%
+  top: 85%
 
 }
 
@@ -212,6 +225,13 @@ a.about-link {
 
 p.about-body {
   font-size: 14px;
+}
+
+i.far,
+i.fab {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.5em;
 }
 
 }
