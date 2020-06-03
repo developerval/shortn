@@ -144,7 +144,7 @@ a.about-link {
   text-decoration: none;
   position: absolute;
   right: 1%;
-  top: 73%;
+  top: 70%;
   font-size: 2rem;
   font-family: gobold-reg;
 }
@@ -176,13 +176,13 @@ h2 {
   font-family: abel-reg;
 }
 
-i.far,
-i.fab {
-  color: white;
+svg {
+  fill: white;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 2em;
+  height: 2em;
 }
+
 
 @media only screen and (max-width: 600px) {
   html, body {
