@@ -188,6 +188,11 @@ text-decoration: none;
 cursor: default;
 }
 
+a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
 
 @media only screen and (max-width: 600px) {
   html, body {
