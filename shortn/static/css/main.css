@@ -178,9 +178,14 @@ h2 {
 
 svg {
   fill: white;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin: 2em;
   height: 2em;
+}
+
+svg:hover {
+fill: darkgray;
+text-decoration: none;
+cursor: default;
 }
 
 
@@ -227,11 +232,9 @@ p.about-body {
   font-size: 14px;
 }
 
-i.far,
-i.fab {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  font-size: 1.5em;
+svg {
+  margin: 1.5em;
+  height: 1.5em;
 }
 
 }
