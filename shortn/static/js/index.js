@@ -2,7 +2,7 @@ function shorten() {
     fetch(`${window.origin}/success`, {
         method: "POST",
         credentials: "include",
-        body: JSON.stringify('entry'),
+        body: JSON.stringify(document.getElementById('input').value),
         cache: "no-cache",
         headers: new Headers({
             "content-type": "application/json"
