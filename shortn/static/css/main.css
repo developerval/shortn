@@ -144,7 +144,7 @@ a.about-link {
   text-decoration: none;
   position: absolute;
   right: 1%;
-  top: 70%;
+  top: 72%;
   font-size: 2rem;
   font-family: gobold-reg;
 }
@@ -178,7 +178,8 @@ h2 {
 
 svg {
   fill: white;
-  margin: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
   height: 2em;
 }
 
