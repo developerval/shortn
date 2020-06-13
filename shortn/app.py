@@ -29,7 +29,7 @@ def forward(url):
         return link_not_found(404)
 
 @app.errorhandler(404)
-def page_not_found(e):
+def link_not_found(e):
     return render_template("link_404.html"), 404
 
 
