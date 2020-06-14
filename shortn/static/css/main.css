@@ -63,6 +63,36 @@ p.about-body {
   height: 73vh;
 }
 
+.error-container {
+  height: 73vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h1.error-title {
+  font-size: 6rem;
+  font-family: gobold-reg;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+h2.error-body {
+  font-size: 2rem;
+  font-family: gobold-reg;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .input-container {
   background-color: #000;
   height: 15rem;

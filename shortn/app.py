@@ -26,11 +26,7 @@ def forward(url):
     if url == 'OqSk7':
         return redirect('http://www.linkedin.com')
     else:
-        return link_not_found(404)
-
-@app.errorhandler(404)
-def link_not_found(e):
-    return render_template("link_404.html"), 404
+        return render_template("link_404.html")
 
 
 if __name__ == '__main__':
