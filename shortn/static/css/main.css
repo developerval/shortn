@@ -75,6 +75,7 @@ p.about-body {
   align-items: center;
 }
 
+/* TODO: add mobile font sizing for the title and body */
 h1.error-title {
   font-size: 6rem;
   font-family: gobold-reg;

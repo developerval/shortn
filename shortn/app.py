@@ -28,6 +28,8 @@ def forward(url):
     else:
         return render_template("link_404.html")
 
+# TODO: add actual 404 error page, also need to create the page in HTML
+
 
 if __name__ == '__main__':
     app.debug = False
