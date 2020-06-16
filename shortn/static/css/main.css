@@ -67,17 +67,19 @@ p.about-body {
   height: 73vh;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #000;
   color: white;
   justify-content: center;
   text-align: center;
   align-items: center;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 /* TODO: add mobile font sizing for the title and body */
 h1.error-title {
-  font-size: 6rem;
+  font-size: 7rem;
   font-family: gobold-reg;
   user-select: none;
   -moz-user-select: none;
@@ -86,12 +88,17 @@ h1.error-title {
 }
 
 h2.error-body {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-family: gobold-reg;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.main-error {
+  margin: 0;
+  width: 50%;
 }
 
 .input-container {
