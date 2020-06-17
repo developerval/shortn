@@ -77,7 +77,6 @@ p.about-body {
   padding-right: 25vw;
 }
 
-/* TODO: add mobile font sizing for the title and body */
 h1.error-title {
   font-size: 7rem;
   font-family: gobold-reg;
@@ -254,31 +253,32 @@ a:hover {
   .main-container {
   position: relative;
   height: 73vh;
-}
+  }
 
 button {
   width: 40%;
   height: 5%;
-}
+  }
 
 a.about-link {
   font-size: 0.75rem;
   top: 85%
-
-}
+  }
 
 .about {
   width: 100vw;
   min-height: 100%;
-}
+  }
 
 p.about-body {
   font-size: 14px;
-}
+  }
 
 svg {
   margin: 1.5em;
   height: 1.5em;
 }
+
+/* TODO: add mobile font sizing for the title and body */
 
 }
