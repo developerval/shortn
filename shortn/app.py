@@ -1,5 +1,5 @@
 from flask import Flask, make_response, jsonify, render_template, request, redirect
-from linkgenerator import generate_link
+from link_utility import generate_link
 
 app = Flask(__name__)
 
