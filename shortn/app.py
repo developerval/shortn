@@ -12,7 +12,7 @@ class Data(db.Model):
     __tablename__ = 'shortn'
     id = db.Column(db.Integer, primary_key=True)
     original_ = db.Column(db.String())
-    shortened_ = db.Column(db.string(5), unique=True)
+    shortened_ = db.Column(db.String(5), unique=True)
 
     def __init__(self, original_, shortened_):
         self.original = original_
